@@ -1,0 +1,101 @@
+body {
+    font-family: Calibri, Helvetica, Arial, Sans-Serif;
+    background-color: #424242;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("roofie_ruthie.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
+    overflow: auto;
+}
+
+
+html, body {
+    margin: 0;
+}
+
+#header, section, #footer, aside, nav, main, article, figure {
+    display: block;
+    overflow : auto;
+}
+
+#header {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 0;
+}
+nav:hover a {
+    color:black;
+}
+nav {
+    color: #424242;
+    background-color: #c5c5c5;
+    padding: 5px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    font-weight: lighter;
+    position: relative;
+    text-align: center;
+    border-top: 3px solid #424242;
+    border-bottom: 3px solid #424242
+}
+
+nav a {
+    color: #424242;
+    text-decoration: none;
+}
+
+main {
+    color: #424242;
+    background-color: #FFFFFF;
+    padding: 10px;
+    z-index: 0;
+}
+
+main #info {
+    font-size: 15pt;
+}
+
+#footer {
+    background-color: #c5c5c5;
+    text-align: center;
+    padding: 10pt 0 10pt 0;
+    border-radius: 0 0 10px 10px;
+    bottom: 0;
+    color: #424242;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+h1 {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 42pt;
+    line-height: 36pt;
+    font-weight: lighter;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18pt;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+/* INDIVIDUAL SELECTORS */
+
+
+#LOGO {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 10px 0;
+    } 
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    min-height: 100%;   
+}
+
